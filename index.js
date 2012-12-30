@@ -13,7 +13,7 @@
 
 
 	var server = http.createServer( function( request, response ){
-		response.writeHead( 301, { location: "https://" + request.headers.host + request.url } );
+		response.writeHead( 302, { location: "https://" + request.headers.host + request.url } );
 		response.end();
 	} );
 
