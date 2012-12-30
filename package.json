@@ -1,0 +1,16 @@
+{
+      "author":         "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)"
+    , "name":           "node-http-redirect"
+    , "description":    "A node server which redirects all http traffic to the https interface ( external redirect )"
+    , "version":        "1.0"
+    , "repository": {
+        "url":          "https://github.com/eventEmitter/node-http-redirect"
+    }
+    , "main": "./index"
+    , "engines": {
+        "node":         "*"
+    }
+    , "dependencies": {}
+    , "devDependencies": {}
+    , "optionalDependencies": {}
+}
